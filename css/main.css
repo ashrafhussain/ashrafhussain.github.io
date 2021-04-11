@@ -283,6 +283,29 @@ p {
 .contact-btn a:hover {
   color: #314584!important;
 }
+
+button[type=submit] {
+  background-color: #FF3946;
+  border:2px solid #FF3946;
+  color: #fff;
+  padding: 17px 35px;
+  font-size: 1.0rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(255,57,70,0.15);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(255,57,70,0.15);
+  box-shadow: 0px 4px 5px 0px rgba(255,57,70,0.15);
+
+}
+
+button[type=submit]:hover {
+  background-color: #fff;
+  border:2px solid #FF3946;
+  color: #314584;
+  padding: 17px 35px;
+  font-size: 1.0rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
 /*-----------------------------------------------------------
   4. Header
 -------------------------------------------------------------*/
